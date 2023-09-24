@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: 'Manrope', sans-serif;
+    
+}
+
+body{
+    background-color: aliceblue;
+    padding-top: 2rem;
+}
+
+.main-container{
+    width: 90%;
+    height: auto;
+    border: 2px solid lavender;
+    margin: 2rem;
+    padding: 3rem 11rem;
+    border-radius: 0.5rem;
+    background-color: white;
+    justify-content: center;
+}
+
+.container1{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    border-bottom: 2px solid #f7f7f7;
+    padding-bottom: 1.5rem;
+    padding-top: 0.5rem;
+    
+   }
+
+img{
+    border-radius: 50%;
+    border: 1px solid #f7f7f7;
+    width: 65px;
+    height: 65px;
+    
+}
+
+.text-outer{
+    width: fit-content;
+    height: auto;
+}
+
+.text-h{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 25rem;
+    margin-bottom: 0.8rem;
+
+}
+
+.text-i{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 22.5rem;
+    margin-top: 0.8rem;
+}
+
+.fa-angle-right{
+    font-size: 1rem;
+    color: #6d6d6d;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-weight: bolder;
+
+}
+
+.leslie{
+    font-size: 0.8em;
+    color: black;
+    letter-spacing: 0.2px; 
+    font-weight: bold;
+ 
+}
+
+.leslie1{
+    font-size: 0.8rem;
+    color: #6d6d6d;
+    text-transform: lowercase;
+ 
+}
+
+.seenn{
+    font-size: 0.8rem;
+    color: #6d6d6d;
+    text-transform: lowercase;
+}
+
+
+@media (min-width: 600px) and (max-width: 768px){
+    .ceo, .seenn{
+       display: none;
+    }
+
+    .text-h{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        column-gap: 4rem;
+        margin-bottom: 0.8rem;
+      
+    }
+    
+    .text-i{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        column-gap: 4rem;
+        margin-top: 0.8rem;
+    }
+
+    .main-container{
+        width: 90%;
+        height: auto;
+        border: 2px solid #f7f7f7;
+        margin: 0rem;
+        padding: 3rem 1.5rem;
+        border-radius: 0.5rem;
+        background-color: white;
+        justify-content: center;
+    }
+
+    .container1{
+        width: fit-content;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        column-gap: 1rem;
+        border-bottom: 3px solid #f7f7f7;
+        padding-bottom: 2rem;
+        padding-top: 1.5rem;
+        
+    }
+
+    .fa-angle-right{
+        font-size: 1rem;
+        color: #6d6d6d;
+        margin-top: 1rem;
+        margin-left: 6rem;
+        font-weight: bolder;
+    
+    }
+}
